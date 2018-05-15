@@ -1,0 +1,27 @@
+.Media{
+cursor:pointer;
+display: inline-block;
+width: 260px;
+font-family: arial;
+text-align: center;
+border: 1px solid gray;
+padding: 10px;
+border-radius: 5px;
+}
+.button{
+text-align: center;
+padding: .6em .8em .8em;
+border:none;
+color: white;
+background: lightgray;
+margin:5px;
+cursor: pointer;
+outline: 0;
+transition: .2s;
+will-change: transform;
+border-radius: 5px;
+background: #029b33;
+}
+.Media-title{
+font-size: 20px;
+}
