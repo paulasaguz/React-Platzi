@@ -1,0 +1,40 @@
+.Modal {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.Descargar li{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.Modal-close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  border-radius: 50%;
+  border: none;
+  background: #171c30;
+  color: white;
+  cursor: pointer;
+}
+
+.Modal-close:after {
+  content: "X";
+  font-weight: bold;
+  font-size: 15px;
+}
